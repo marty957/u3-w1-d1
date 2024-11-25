@@ -3,6 +3,7 @@ import TopBar from "./components/Topbar";
 import Title from "./components/title";
 import ButtonBuy from "./components/ButtonBuy";
 import FormGroup from "./components/FormGroup";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,18 @@ function App() {
         <FormGroup id="email_input" labelText="Your email" placeholder="Type your email" type="email" />
       </header>
       <ButtonBuy className="buttonBuy" />
+
+      <Footer
+        footerstyle={{
+          color: "white",
+          backgroundColor: "black",
+          fontSize: "0.8rem",
+          marginBottom: "0",
+          paddingBlock: "0.5rem",
+          marginBlock: "3rem"
+        }}
+        company="© 2024 Sony Interactive Entertainment Europe Limited (SIEE)"
+      />
     </div>
   );
 }
