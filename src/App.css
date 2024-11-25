@@ -77,6 +77,16 @@ p {
 
   animation: vibrate-1 0.3s linear infinite both;
 }
+
+.form {
+  /*border: 1px solid blue*/
+  padding-inline: 1rem;
+  margin-block: 10px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
